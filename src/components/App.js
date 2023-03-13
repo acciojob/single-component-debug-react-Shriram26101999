@@ -1,9 +1,11 @@
-import React from 'react'
+import React,{component,useState} from "react";
+const App=()=>{
+    return(
+        <div id="root">
+            <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
 
-const App = () => {
-  return (
-    <div><p>Now I can render any React component on any DOM node I want using ReactDOM.render</p></div>
-  )
+        </div>
+    )
 }
 
-export default App
+export default App;
